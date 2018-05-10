@@ -14,6 +14,7 @@ repos <- dplyr::filter(repos, is_pkg, !is_fork)
 # Grey - 77 77 77 - 4d4d4d
 
 brand_labels <- function(repo){
+  message(repo)
   # blue for enhancement
   gh::gh("PATCH /repos/:owner/:repo/labels/:name",
          repo = repo, owner = "lockedata",
@@ -24,14 +25,14 @@ brand_labels <- function(repo){
   # orange for help wanted
   gh::gh("PATCH /repos/:owner/:repo/labels/:name",
          repo = repo, owner = "lockedata",
-         name = "good first issue :hatching_chick:",
+         name = "help wanted :raised_hand:",
          color = "E8830C",
          .send_headers = c(Accept = "application/vnd.github.symmetra-preview+json"))
   
   # grey for good first issue
   gh::gh("PATCH /repos/:owner/:repo/labels/:name",
          repo = repo, owner = "lockedata",
-         name = "help wanted :raised_hand:",
+         name = "good first issue :hatching_chick:",
          color = "4d4d4d",
          .send_headers = c(Accept = "application/vnd.github.symmetra-preview+json"))
   
