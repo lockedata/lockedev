@@ -1,2 +1,5 @@
+^\.github$
 ^README\.Rmd$
 inst/legacy_code$
+^.*\.Rproj$
+^\.Rproj\.user$
