@@ -1,4 +1,4 @@
-# lockemetadata
+# lockedev
 
 R Package helping to implement best practice over Locke Data’s packages suite.
 
