@@ -1,3 +1,5 @@
+# Contributing guide
+
 ### Code of Conduct
 Anyone getting involved in this package agrees to our [Code of Conduct](CONDUCT.md). If someone is breaking the [Will Wheaton rule aka *Don't be a dick*](https://dontbeadickday.com/), or breaking the Code of Conduct, please let me know at steph@itsalocke.com
 
@@ -20,3 +22,5 @@ We're relatively loose on coding conventions.
 - R code should be formatted with the "Reformat code" option in RStudio
 - There are no standards for base R plots
 - My preferred ggplot2 themes are `theme_minimal` where axes labels matter and `theme_void` when they do not but I'm OK with the default ggplot2 theming if you want to avoid writing longer ggplot2 code.
+
+New features should be accompanied by new unit tests. We're glad to help with that if you're new to testing!
