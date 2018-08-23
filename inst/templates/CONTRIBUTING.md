@@ -6,6 +6,8 @@ Anyone getting involved in this package agrees to our [Code of Conduct](CONDUCT.
 ### Bug reports
 When you file a bug report, please spend some time making it easy for us to follow and reproduce. The more time you spend on making the bug report coherent, the more time we can dedicate to investigate the bug as opposed to the bug report. We recommend using [`reprex`](https://reprex.tidyverse.org/) when providing minimal examples.
 
+If you need a secure way to communicate with the maintainer of this package, message her via [her Keybase account](https://keybase.io/stephlocke/sigs/TJhQohm7tAypQqcl2pjFeXRt23rrpI2Bw6it).
+
 ### Ideas
 Got an idea for how we can improve the package? Awesome stuff!
 
