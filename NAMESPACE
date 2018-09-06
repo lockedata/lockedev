@@ -3,3 +3,4 @@
 export(add_ld_fnd)
 export(get_ld_colours)
 export(use_ld_github)
+export(use_ld_labels)

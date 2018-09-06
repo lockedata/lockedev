@@ -34,7 +34,7 @@ lockedev::get_ld_colours()
 
 !!! Soon-ish the setup should be all automatic !!! (but you'll still need the guidance to LDify existing repos)
 
-First, create an RStudio project associated with the folder. You can gitignore it if you prefer, in the case of the repo not being an R project.
+* First, create an RStudio project associated with the folder. You should gitignore in the case of the repo not being an R project. Run `usethis::use_build_ignore("projectname.Rproj")`.
 
 * Add a minimal README using `usethis::use_readme_rmd()` or `usethis::use_readme_md()`.
 
@@ -42,7 +42,7 @@ First, create an RStudio project associated with the folder. You can gitignore i
 
 * Run `lockedev::use_ld_github()` inside the RStudio Rproj. It recognizes whether the repo is R stuff by looking for a DESCRIPTION file. It adds a contributing guide, a code of conduct, and gives you text to add to the README.
 
-* Use the [official set of issue labels](https://itsalocke.com/blog/harmonizing-and-emojifying-our-github-issue-trackers/). No helper function yet.
+* Use the [official set of issue labels](https://itsalocke.com/blog/harmonizing-and-emojifying-our-github-issue-trackers/). Get a token https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/ and save it via `usethis::edit_r_environ()`. Run `lockedev::use_ld_labels()`
 
 * Write a GitHub repo description (or ask someone with admin rights to do that for you!). Feel free to use emojis in the GitHub repo description. 
 
