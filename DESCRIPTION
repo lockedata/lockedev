@@ -16,6 +16,7 @@ LazyData: true
 RoxygenNote: 6.1.0
 Imports: 
     usethis,
-    desc
+    desc,
+    fs
 Suggests: 
     testthat

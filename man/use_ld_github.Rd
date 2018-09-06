@@ -4,10 +4,10 @@
 \alias{use_ld_github}
 \title{Add CONTRIBUTING.md in .github}
 \usage{
-use_ld_github(package_name)
+use_ld_github(project_name)
 }
 \arguments{
-\item{package_name}{Package name}
+\item{project_name}{Project name}
 }
 \description{
 Add CONTRIBUTING.md in .github
