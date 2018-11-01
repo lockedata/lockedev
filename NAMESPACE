@@ -3,3 +3,4 @@
 export(add_ld_fnd)
 export(use_ld_github)
 export(use_ld_labels)
+export(use_slack_invite)
