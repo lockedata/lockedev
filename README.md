@@ -8,17 +8,9 @@ R Package helping to implement best practice over Locke Data’s packages suite.
 devtools::install_github("lockedata/lockedev")
 ```
 
-## Misc
+## Other Locke Data package
 
-``` r
-lockedev::get_ld_colours()
-#> # A tibble: 3 x 2
-#>   colour_name colour_hex
-#>   <chr>       <chr>     
-#> 1 orange      #E8830C   
-#> 2 blue        #2165B6   
-#> 3 grey        #4d4d4d
-```
+For our `ggplot2` theme, our colours, refer to [`lockeutils`](https://github.com/lockedata/lockeutils).
 
 ## Best practice for Locke Data repos
 
