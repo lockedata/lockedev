@@ -41,6 +41,8 @@ For our `ggplot2` theme, our colours, refer to [`lockeutils`](https://github.com
 
 * Write a GitHub repo description (or ask someone with admin rights to do that for you!). Feel free to use emojis in the GitHub repo description. 
 
+* Add a Slack invite badge via `use_slack_invite()` so folks can join and discuss in our friendly social space.
+
 #### R packages only
 
 * Use GitHub labels. "r", "r-package" and "rstats" on top of the ones relevant for the package topic. Here’s the [direct URL to all Locke Data packages](https://github.com/search?q=topic%3Ar-package+org%3Alockedata+fork%3Atrue).
@@ -48,3 +50,4 @@ For our `ggplot2` theme, our colours, refer to [`lockeutils`](https://github.com
 * Locke Data should be added as author via `lockedev::add_ld_fnd()`.
 
 * For packages, add a codemeta.json file via `codemetar::write_codemeta`.
+
